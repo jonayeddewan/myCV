@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #EEE;
+}
+
+.container {
+    max-width: 1000px;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-bio {
+    float: left;
+    padding: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #11999e;
+}
+
+.header-contact {
+    float: right;
+    padding: 30px;
+}
+
+.header-contact a {
+    color: #11999e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-contact a:hover {
+    color: #0A8080;
+}
+
+.div-clear {
+    clear: both;
+}
+
+hr {
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+.personal-section {}
+
+.content {
+    margin-bottom: 30px;
+}
+
+.left-div {
+    width: 30%;
+    float: left;
+}
+
+.right-div {
+    width: 70%;
+    float: right;
+}
+
+.common-hr {
+    border: solid black 1px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+li {
+    margin-left: 20px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+.reference-left {
+    width: 45%;
+    float: left;
+}
+
+.reference-right {
+    width: 45;
+    float: right;
+}
